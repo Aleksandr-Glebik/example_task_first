@@ -1,0 +1,55 @@
+body{
+	font-family: rockwell, cursive;
+	background: url(../img/logo-text.png) no-repeat right top fixed, 
+				url(../img/background2.jpg);
+	
+}
+.nounderline{
+	text-decoration: none;
+}
+
+h1{
+	font-family: arial;
+	font-size: 24px;
+}
+
+h2{
+	font-family: arial;
+	font-size: 18px;
+}
+
+#menu{
+	font-style: italic;
+	font-size: 16px;
+}
+
+#gallery1{
+	width: 200px;
+}
+
+.gallery2{
+	width: 260px;
+	transition: 1.5s;
+	box-shadow: 20px 20px 50px #111; 
+}
+
+.gallery2:hover{
+	display: inline-block;
+	overflow: hidden;
+	
+	transform: scale(1.2);
+	
+}
+
+.gallery3{
+	width: 310px;
+}
+
+p{
+	margin: 10px 20px;
+}
+
+botton{
+	background: #6cc372;
+	color: #fff;
+}
